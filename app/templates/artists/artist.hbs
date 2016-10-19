@@ -1,0 +1,7 @@
+The artist has {{model.songs.length}} songs
+
+{{#each model.songs as |song|}}
+{{#song-item song=song}}{{/song-item}}
+
+{{/each}}
+{{outlet}}

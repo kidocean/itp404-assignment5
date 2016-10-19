@@ -1,0 +1,22 @@
+
+<strong> Title:</strong> {{song.title}} <br>
+
+Song Price: {{song.price}}<br>
+
+Number of Plays {{song.playCount}}
+
+{{#if isPopular}}
+<br>
+THIS SONG POPPING!!!
+{{/if}}
+
+{{#if isPricey}}
+<br>$$<br>
+PRICEY!!!
+
+{{else}}
+<br>$<br>
+CHEAP AF!
+
+{{/if}}
+<br><br>
